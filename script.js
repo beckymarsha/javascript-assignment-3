@@ -8,9 +8,9 @@ document.body.appendChild(view);
 var grass = document.createElement("div");
 grass.className = "grass";
 //view.innerText = "My first car was gray!";
-document.body.appendChild(grass);
+view.appendChild(grass);
 
 var sun = document.createElement("div");
 sun.className = "sun";
 //view.innerText = "My first car was gray!";
-document.body.appendChild(sun);
+view.appendChild(sun);
