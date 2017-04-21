@@ -31,7 +31,7 @@ while (x < 2) {
     sun.appendChild(ray4);
     sun.appendChild(ray5);
     x++;
-}   
+}
 
 var mountain = document.createElement("div");
 mountain.className = "mountain";
@@ -41,6 +41,14 @@ var mountaintop = document.createElement("div");
 mountaintop.className = "mountain-top";
 mountain.appendChild(mountaintop);
 
+var baseMC = 'mountain-cap-';
+var i = 0;
+do {
+    i += 1;
+    var result = document.createElement('div');
+    result.className = baseMC + i;
+    mountaintop.appendChild(result);
+} while (i < 4);
 
 
 // var ray1 = document.createElement("div");
