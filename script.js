@@ -51,6 +51,14 @@ do {
 } while (i < 4);
 
 
+var poop = document.createElement('img');
+poop.src = './poop.png';
+poop.id = 'poop';
+poop.onload = function() {
+    mountaintop.appendChild(poop);
+};
+
+
 // var ray1 = document.createElement("div");
 // ray1.className = "ray-1";
 // sun.appendChild(ray1);

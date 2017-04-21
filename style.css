@@ -111,3 +111,10 @@
 .mountain-cap-3 {
     left: 5px;
 }
+
+#poop {
+    padding: 0;
+    position: absolute;
+    height: 30px;
+    margin: -13px;
+}
